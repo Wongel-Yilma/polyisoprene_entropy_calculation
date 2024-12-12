@@ -1,0 +1,35 @@
+import "loplsaa.lt" 
+
+
+C5H8 inherits OPLSAA {
+ # atom-id  mol-id   atom-type  charge   x             y                z
+      write("Data Atoms") {
+      $atom:c1  $mol:... @atom:86L   0.0  -0.5185     0.0447      -0.0001
+      $atom:c2  $mol:... @atom:80L   0.0  -0.6822     -1.4501      0.0
+      $atom:c3  $mol:... @atom:87L   0.0  0.8202     0.6168        0.0
+      $atom:c4  $mol:... @atom:81L   0.0  -1.5949     0.8486       0.0
+      $atom:c5  $mol:... @atom:81L   0.0  1.9754     -0.06         0.0
+      $atom:h1  $mol:... @atom:85LCH3    0.0  -0.2221     -1.8912    -0.8909
+      $atom:h2  $mol:... @atom:85LCH3    0.0  -1.737     -1.7472      0.0001
+      $atom:h3  $mol:... @atom:85LCH3    0.0  -0.2221     -1.8911     0.8909
+      $atom:h4  $mol:... @atom:89L    0.0  0.8832     1.7038       0.0001
+      $atom:h5  $mol:... @atom:85LCH2    0.0  -2.6016     0.4428      0.0
+      $atom:h6  $mol:... @atom:85LCH2    0.0  -1.5045     1.9305      0.0
+      $atom:h7  $mol:... @atom:85LCH2    0.0  2.9182     0.4777       0.0
+      $atom:h8  $mol:... @atom:85LCH2    0.0  2.0229     -1.1428     -0.0001
+   }
+   write('Data Bond List') {
+   $bond:c1c2 $atom:c1 $atom:c2
+   $bond:c1c3 $atom:c1 $atom:c3
+   $bond:c1c4 $atom:c1 $atom:c4
+   $bond:c2h1 $atom:c2 $atom:h1
+   $bond:c2h2 $atom:c2 $atom:h2
+   $bond:c2h3 $atom:c2 $atom:h3
+   $bond:c3c5 $atom:c3 $atom:c5
+   $bond:c3h4 $atom:c3 $atom:h4
+   $bond:c4h5 $atom:c4 $atom:h5
+   $bond:c4h6 $atom:c4 $atom:h6
+   $bond:c5h7 $atom:c5 $atom:h7
+   $bond:c5h8 $atom:c5 $atom:h8
+   }
+} # C5H8

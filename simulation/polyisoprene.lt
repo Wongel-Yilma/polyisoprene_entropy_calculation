@@ -1,0 +1,308 @@
+import "repeat.lt"
+import "head.lt"
+import "tail.lt"
+Polyisoprene inherits OPLSAA {
+  create_var {$mol}
+monomers[0] = new HEAD.move(0.0,0,0)
+monomers[1] = new C5H8.move(7,0.0,0)
+monomers[2] = new C5H8.move(14,0.0,0)
+monomers[3] = new C5H8.move(21,0.0,0)
+monomers[4] = new C5H8.move(28,0.0,0)
+monomers[5] = new C5H8.move(35,0.0,0)
+monomers[6] = new C5H8.move(42,0.0,0)
+monomers[7] = new C5H8.move(49,0.0,0)
+monomers[8] = new C5H8.move(56,0.0,0)
+monomers[9] = new C5H8.move(63,0.0,0)
+monomers[10] = new C5H8.move(70,0.0,0)
+monomers[11] = new C5H8.move(77,0.0,0)
+monomers[12] = new C5H8.move(84,0.0,0)
+monomers[13] = new C5H8.move(91,0.0,0)
+monomers[14] = new C5H8.move(98,0.0,0)
+monomers[15] = new C5H8.move(105,0.0,0)
+monomers[16] = new C5H8.move(112,0.0,0)
+monomers[17] = new C5H8.move(119,0.0,0)
+monomers[18] = new C5H8.move(126,0.0,0)
+monomers[19] = new C5H8.move(133,0.0,0)
+monomers[20] = new C5H8.move(140,0.0,0)
+monomers[21] = new C5H8.move(147,0.0,0)
+monomers[22] = new C5H8.move(154,0.0,0)
+monomers[23] = new C5H8.move(161,0.0,0)
+monomers[24] = new C5H8.move(168,0.0,0)
+monomers[25] = new C5H8.move(175,0.0,0)
+monomers[26] = new C5H8.move(182,0.0,0)
+monomers[27] = new C5H8.move(189,0.0,0)
+monomers[28] = new C5H8.move(196,0.0,0)
+monomers[29] = new C5H8.move(203,0.0,0)
+monomers[30] = new C5H8.move(210,0.0,0)
+monomers[31] = new C5H8.move(217,0.0,0)
+monomers[32] = new C5H8.move(224,0.0,0)
+monomers[33] = new C5H8.move(231,0.0,0)
+monomers[34] = new C5H8.move(238,0.0,0)
+monomers[35] = new C5H8.move(245,0.0,0)
+monomers[36] = new C5H8.move(252,0.0,0)
+monomers[37] = new C5H8.move(259,0.0,0)
+monomers[38] = new C5H8.move(266,0.0,0)
+monomers[39] = new C5H8.move(273,0.0,0)
+monomers[40] = new C5H8.move(280,0.0,0)
+monomers[41] = new C5H8.move(287,0.0,0)
+monomers[42] = new C5H8.move(294,0.0,0)
+monomers[43] = new C5H8.move(301,0.0,0)
+monomers[44] = new C5H8.move(308,0.0,0)
+monomers[45] = new C5H8.move(315,0.0,0)
+monomers[46] = new C5H8.move(322,0.0,0)
+monomers[47] = new C5H8.move(329,0.0,0)
+monomers[48] = new C5H8.move(336,0.0,0)
+monomers[49] = new C5H8.move(343,0.0,0)
+monomers[50] = new C5H8.move(350,0.0,0)
+monomers[51] = new C5H8.move(357,0.0,0)
+monomers[52] = new C5H8.move(364,0.0,0)
+monomers[53] = new C5H8.move(371,0.0,0)
+monomers[54] = new C5H8.move(378,0.0,0)
+monomers[55] = new C5H8.move(385,0.0,0)
+monomers[56] = new C5H8.move(392,0.0,0)
+monomers[57] = new C5H8.move(399,0.0,0)
+monomers[58] = new C5H8.move(406,0.0,0)
+monomers[59] = new C5H8.move(413,0.0,0)
+monomers[60] = new C5H8.move(420,0.0,0)
+monomers[61] = new C5H8.move(427,0.0,0)
+monomers[62] = new C5H8.move(434,0.0,0)
+monomers[63] = new C5H8.move(441,0.0,0)
+monomers[64] = new C5H8.move(448,0.0,0)
+monomers[65] = new C5H8.move(455,0.0,0)
+monomers[66] = new C5H8.move(462,0.0,0)
+monomers[67] = new C5H8.move(469,0.0,0)
+monomers[68] = new C5H8.move(476,0.0,0)
+monomers[69] = new C5H8.move(483,0.0,0)
+monomers[70] = new C5H8.move(490,0.0,0)
+monomers[71] = new C5H8.move(497,0.0,0)
+monomers[72] = new C5H8.move(504,0.0,0)
+monomers[73] = new C5H8.move(511,0.0,0)
+monomers[74] = new C5H8.move(518,0.0,0)
+monomers[75] = new C5H8.move(525,0.0,0)
+monomers[76] = new C5H8.move(532,0.0,0)
+monomers[77] = new C5H8.move(539,0.0,0)
+monomers[78] = new C5H8.move(546,0.0,0)
+monomers[79] = new C5H8.move(553,0.0,0)
+monomers[80] = new C5H8.move(560,0.0,0)
+monomers[81] = new C5H8.move(567,0.0,0)
+monomers[82] = new C5H8.move(574,0.0,0)
+monomers[83] = new C5H8.move(581,0.0,0)
+monomers[84] = new C5H8.move(588,0.0,0)
+monomers[85] = new C5H8.move(595,0.0,0)
+monomers[86] = new C5H8.move(602,0.0,0)
+monomers[87] = new C5H8.move(609,0.0,0)
+monomers[88] = new C5H8.move(616,0.0,0)
+monomers[89] = new C5H8.move(623,0.0,0)
+monomers[90] = new C5H8.move(630,0.0,0)
+monomers[91] = new C5H8.move(637,0.0,0)
+monomers[92] = new C5H8.move(644,0.0,0)
+monomers[93] = new C5H8.move(651,0.0,0)
+monomers[94] = new C5H8.move(658,0.0,0)
+monomers[95] = new C5H8.move(665,0.0,0)
+monomers[96] = new C5H8.move(672,0.0,0)
+monomers[97] = new C5H8.move(679,0.0,0)
+monomers[98] = new C5H8.move(686,0.0,0)
+monomers[99] = new C5H8.move(693,0.0,0)
+monomers[100] = new C5H8.move(700,0.0,0)
+monomers[101] = new C5H8.move(707,0.0,0)
+monomers[102] = new C5H8.move(714,0.0,0)
+monomers[103] = new C5H8.move(721,0.0,0)
+monomers[104] = new C5H8.move(728,0.0,0)
+monomers[105] = new C5H8.move(735,0.0,0)
+monomers[106] = new C5H8.move(742,0.0,0)
+monomers[107] = new C5H8.move(749,0.0,0)
+monomers[108] = new C5H8.move(756,0.0,0)
+monomers[109] = new C5H8.move(763,0.0,0)
+monomers[110] = new C5H8.move(770,0.0,0)
+monomers[111] = new C5H8.move(777,0.0,0)
+monomers[112] = new C5H8.move(784,0.0,0)
+monomers[113] = new C5H8.move(791,0.0,0)
+monomers[114] = new C5H8.move(798,0.0,0)
+monomers[115] = new C5H8.move(805,0.0,0)
+monomers[116] = new C5H8.move(812,0.0,0)
+monomers[117] = new C5H8.move(819,0.0,0)
+monomers[118] = new C5H8.move(826,0.0,0)
+monomers[119] = new C5H8.move(833,0.0,0)
+monomers[120] = new C5H8.move(840,0.0,0)
+monomers[121] = new C5H8.move(847,0.0,0)
+monomers[122] = new C5H8.move(854,0.0,0)
+monomers[123] = new C5H8.move(861,0.0,0)
+monomers[124] = new C5H8.move(868,0.0,0)
+monomers[125] = new C5H8.move(875,0.0,0)
+monomers[126] = new C5H8.move(882,0.0,0)
+monomers[127] = new C5H8.move(889,0.0,0)
+monomers[128] = new C5H8.move(896,0.0,0)
+monomers[129] = new C5H8.move(903,0.0,0)
+monomers[130] = new C5H8.move(910,0.0,0)
+monomers[131] = new C5H8.move(917,0.0,0)
+monomers[132] = new C5H8.move(924,0.0,0)
+monomers[133] = new C5H8.move(931,0.0,0)
+monomers[134] = new C5H8.move(938,0.0,0)
+monomers[135] = new C5H8.move(945,0.0,0)
+monomers[136] = new C5H8.move(952,0.0,0)
+monomers[137] = new C5H8.move(959,0.0,0)
+monomers[138] = new C5H8.move(966,0.0,0)
+monomers[139] = new C5H8.move(973,0.0,0)
+monomers[140] = new C5H8.move(980,0.0,0)
+monomers[141] = new C5H8.move(987,0.0,0)
+monomers[142] = new C5H8.move(994,0.0,0)
+monomers[143] = new C5H8.move(1001,0.0,0)
+monomers[144] = new C5H8.move(1008,0.0,0)
+monomers[145] = new C5H8.move(1015,0.0,0)
+monomers[146] = new C5H8.move(1022,0.0,0)
+monomers[147] = new C5H8.move(1029,0.0,0)
+monomers[148] = new C5H8.move(1036,0.0,0)
+monomers[149] = new TAIL.move(1043,0.0,0)
+write('Data Bond List') {
+$bond:b1  $atom:monomers[0]/c5 $atom:monomers[1]/c4
+$bond:b2  $atom:monomers[1]/c5 $atom:monomers[2]/c4
+$bond:b3  $atom:monomers[2]/c5 $atom:monomers[3]/c4
+$bond:b4  $atom:monomers[3]/c5 $atom:monomers[4]/c4
+$bond:b5  $atom:monomers[4]/c5 $atom:monomers[5]/c4
+$bond:b6  $atom:monomers[5]/c5 $atom:monomers[6]/c4
+$bond:b7  $atom:monomers[6]/c5 $atom:monomers[7]/c4
+$bond:b8  $atom:monomers[7]/c5 $atom:monomers[8]/c4
+$bond:b9  $atom:monomers[8]/c5 $atom:monomers[9]/c4
+$bond:b10  $atom:monomers[9]/c5 $atom:monomers[10]/c4
+$bond:b11  $atom:monomers[10]/c5 $atom:monomers[11]/c4
+$bond:b12  $atom:monomers[11]/c5 $atom:monomers[12]/c4
+$bond:b13  $atom:monomers[12]/c5 $atom:monomers[13]/c4
+$bond:b14  $atom:monomers[13]/c5 $atom:monomers[14]/c4
+$bond:b15  $atom:monomers[14]/c5 $atom:monomers[15]/c4
+$bond:b16  $atom:monomers[15]/c5 $atom:monomers[16]/c4
+$bond:b17  $atom:monomers[16]/c5 $atom:monomers[17]/c4
+$bond:b18  $atom:monomers[17]/c5 $atom:monomers[18]/c4
+$bond:b19  $atom:monomers[18]/c5 $atom:monomers[19]/c4
+$bond:b20  $atom:monomers[19]/c5 $atom:monomers[20]/c4
+$bond:b21  $atom:monomers[20]/c5 $atom:monomers[21]/c4
+$bond:b22  $atom:monomers[21]/c5 $atom:monomers[22]/c4
+$bond:b23  $atom:monomers[22]/c5 $atom:monomers[23]/c4
+$bond:b24  $atom:monomers[23]/c5 $atom:monomers[24]/c4
+$bond:b25  $atom:monomers[24]/c5 $atom:monomers[25]/c4
+$bond:b26  $atom:monomers[25]/c5 $atom:monomers[26]/c4
+$bond:b27  $atom:monomers[26]/c5 $atom:monomers[27]/c4
+$bond:b28  $atom:monomers[27]/c5 $atom:monomers[28]/c4
+$bond:b29  $atom:monomers[28]/c5 $atom:monomers[29]/c4
+$bond:b30  $atom:monomers[29]/c5 $atom:monomers[30]/c4
+$bond:b31  $atom:monomers[30]/c5 $atom:monomers[31]/c4
+$bond:b32  $atom:monomers[31]/c5 $atom:monomers[32]/c4
+$bond:b33  $atom:monomers[32]/c5 $atom:monomers[33]/c4
+$bond:b34  $atom:monomers[33]/c5 $atom:monomers[34]/c4
+$bond:b35  $atom:monomers[34]/c5 $atom:monomers[35]/c4
+$bond:b36  $atom:monomers[35]/c5 $atom:monomers[36]/c4
+$bond:b37  $atom:monomers[36]/c5 $atom:monomers[37]/c4
+$bond:b38  $atom:monomers[37]/c5 $atom:monomers[38]/c4
+$bond:b39  $atom:monomers[38]/c5 $atom:monomers[39]/c4
+$bond:b40  $atom:monomers[39]/c5 $atom:monomers[40]/c4
+$bond:b41  $atom:monomers[40]/c5 $atom:monomers[41]/c4
+$bond:b42  $atom:monomers[41]/c5 $atom:monomers[42]/c4
+$bond:b43  $atom:monomers[42]/c5 $atom:monomers[43]/c4
+$bond:b44  $atom:monomers[43]/c5 $atom:monomers[44]/c4
+$bond:b45  $atom:monomers[44]/c5 $atom:monomers[45]/c4
+$bond:b46  $atom:monomers[45]/c5 $atom:monomers[46]/c4
+$bond:b47  $atom:monomers[46]/c5 $atom:monomers[47]/c4
+$bond:b48  $atom:monomers[47]/c5 $atom:monomers[48]/c4
+$bond:b49  $atom:monomers[48]/c5 $atom:monomers[49]/c4
+$bond:b50  $atom:monomers[49]/c5 $atom:monomers[50]/c4
+$bond:b51  $atom:monomers[50]/c5 $atom:monomers[51]/c4
+$bond:b52  $atom:monomers[51]/c5 $atom:monomers[52]/c4
+$bond:b53  $atom:monomers[52]/c5 $atom:monomers[53]/c4
+$bond:b54  $atom:monomers[53]/c5 $atom:monomers[54]/c4
+$bond:b55  $atom:monomers[54]/c5 $atom:monomers[55]/c4
+$bond:b56  $atom:monomers[55]/c5 $atom:monomers[56]/c4
+$bond:b57  $atom:monomers[56]/c5 $atom:monomers[57]/c4
+$bond:b58  $atom:monomers[57]/c5 $atom:monomers[58]/c4
+$bond:b59  $atom:monomers[58]/c5 $atom:monomers[59]/c4
+$bond:b60  $atom:monomers[59]/c5 $atom:monomers[60]/c4
+$bond:b61  $atom:monomers[60]/c5 $atom:monomers[61]/c4
+$bond:b62  $atom:monomers[61]/c5 $atom:monomers[62]/c4
+$bond:b63  $atom:monomers[62]/c5 $atom:monomers[63]/c4
+$bond:b64  $atom:monomers[63]/c5 $atom:monomers[64]/c4
+$bond:b65  $atom:monomers[64]/c5 $atom:monomers[65]/c4
+$bond:b66  $atom:monomers[65]/c5 $atom:monomers[66]/c4
+$bond:b67  $atom:monomers[66]/c5 $atom:monomers[67]/c4
+$bond:b68  $atom:monomers[67]/c5 $atom:monomers[68]/c4
+$bond:b69  $atom:monomers[68]/c5 $atom:monomers[69]/c4
+$bond:b70  $atom:monomers[69]/c5 $atom:monomers[70]/c4
+$bond:b71  $atom:monomers[70]/c5 $atom:monomers[71]/c4
+$bond:b72  $atom:monomers[71]/c5 $atom:monomers[72]/c4
+$bond:b73  $atom:monomers[72]/c5 $atom:monomers[73]/c4
+$bond:b74  $atom:monomers[73]/c5 $atom:monomers[74]/c4
+$bond:b75  $atom:monomers[74]/c5 $atom:monomers[75]/c4
+$bond:b76  $atom:monomers[75]/c5 $atom:monomers[76]/c4
+$bond:b77  $atom:monomers[76]/c5 $atom:monomers[77]/c4
+$bond:b78  $atom:monomers[77]/c5 $atom:monomers[78]/c4
+$bond:b79  $atom:monomers[78]/c5 $atom:monomers[79]/c4
+$bond:b80  $atom:monomers[79]/c5 $atom:monomers[80]/c4
+$bond:b81  $atom:monomers[80]/c5 $atom:monomers[81]/c4
+$bond:b82  $atom:monomers[81]/c5 $atom:monomers[82]/c4
+$bond:b83  $atom:monomers[82]/c5 $atom:monomers[83]/c4
+$bond:b84  $atom:monomers[83]/c5 $atom:monomers[84]/c4
+$bond:b85  $atom:monomers[84]/c5 $atom:monomers[85]/c4
+$bond:b86  $atom:monomers[85]/c5 $atom:monomers[86]/c4
+$bond:b87  $atom:monomers[86]/c5 $atom:monomers[87]/c4
+$bond:b88  $atom:monomers[87]/c5 $atom:monomers[88]/c4
+$bond:b89  $atom:monomers[88]/c5 $atom:monomers[89]/c4
+$bond:b90  $atom:monomers[89]/c5 $atom:monomers[90]/c4
+$bond:b91  $atom:monomers[90]/c5 $atom:monomers[91]/c4
+$bond:b92  $atom:monomers[91]/c5 $atom:monomers[92]/c4
+$bond:b93  $atom:monomers[92]/c5 $atom:monomers[93]/c4
+$bond:b94  $atom:monomers[93]/c5 $atom:monomers[94]/c4
+$bond:b95  $atom:monomers[94]/c5 $atom:monomers[95]/c4
+$bond:b96  $atom:monomers[95]/c5 $atom:monomers[96]/c4
+$bond:b97  $atom:monomers[96]/c5 $atom:monomers[97]/c4
+$bond:b98  $atom:monomers[97]/c5 $atom:monomers[98]/c4
+$bond:b99  $atom:monomers[98]/c5 $atom:monomers[99]/c4
+$bond:b100  $atom:monomers[99]/c5 $atom:monomers[100]/c4
+$bond:b101  $atom:monomers[100]/c5 $atom:monomers[101]/c4
+$bond:b102  $atom:monomers[101]/c5 $atom:monomers[102]/c4
+$bond:b103  $atom:monomers[102]/c5 $atom:monomers[103]/c4
+$bond:b104  $atom:monomers[103]/c5 $atom:monomers[104]/c4
+$bond:b105  $atom:monomers[104]/c5 $atom:monomers[105]/c4
+$bond:b106  $atom:monomers[105]/c5 $atom:monomers[106]/c4
+$bond:b107  $atom:monomers[106]/c5 $atom:monomers[107]/c4
+$bond:b108  $atom:monomers[107]/c5 $atom:monomers[108]/c4
+$bond:b109  $atom:monomers[108]/c5 $atom:monomers[109]/c4
+$bond:b110  $atom:monomers[109]/c5 $atom:monomers[110]/c4
+$bond:b111  $atom:monomers[110]/c5 $atom:monomers[111]/c4
+$bond:b112  $atom:monomers[111]/c5 $atom:monomers[112]/c4
+$bond:b113  $atom:monomers[112]/c5 $atom:monomers[113]/c4
+$bond:b114  $atom:monomers[113]/c5 $atom:monomers[114]/c4
+$bond:b115  $atom:monomers[114]/c5 $atom:monomers[115]/c4
+$bond:b116  $atom:monomers[115]/c5 $atom:monomers[116]/c4
+$bond:b117  $atom:monomers[116]/c5 $atom:monomers[117]/c4
+$bond:b118  $atom:monomers[117]/c5 $atom:monomers[118]/c4
+$bond:b119  $atom:monomers[118]/c5 $atom:monomers[119]/c4
+$bond:b120  $atom:monomers[119]/c5 $atom:monomers[120]/c4
+$bond:b121  $atom:monomers[120]/c5 $atom:monomers[121]/c4
+$bond:b122  $atom:monomers[121]/c5 $atom:monomers[122]/c4
+$bond:b123  $atom:monomers[122]/c5 $atom:monomers[123]/c4
+$bond:b124  $atom:monomers[123]/c5 $atom:monomers[124]/c4
+$bond:b125  $atom:monomers[124]/c5 $atom:monomers[125]/c4
+$bond:b126  $atom:monomers[125]/c5 $atom:monomers[126]/c4
+$bond:b127  $atom:monomers[126]/c5 $atom:monomers[127]/c4
+$bond:b128  $atom:monomers[127]/c5 $atom:monomers[128]/c4
+$bond:b129  $atom:monomers[128]/c5 $atom:monomers[129]/c4
+$bond:b130  $atom:monomers[129]/c5 $atom:monomers[130]/c4
+$bond:b131  $atom:monomers[130]/c5 $atom:monomers[131]/c4
+$bond:b132  $atom:monomers[131]/c5 $atom:monomers[132]/c4
+$bond:b133  $atom:monomers[132]/c5 $atom:monomers[133]/c4
+$bond:b134  $atom:monomers[133]/c5 $atom:monomers[134]/c4
+$bond:b135  $atom:monomers[134]/c5 $atom:monomers[135]/c4
+$bond:b136  $atom:monomers[135]/c5 $atom:monomers[136]/c4
+$bond:b137  $atom:monomers[136]/c5 $atom:monomers[137]/c4
+$bond:b138  $atom:monomers[137]/c5 $atom:monomers[138]/c4
+$bond:b139  $atom:monomers[138]/c5 $atom:monomers[139]/c4
+$bond:b140  $atom:monomers[139]/c5 $atom:monomers[140]/c4
+$bond:b141  $atom:monomers[140]/c5 $atom:monomers[141]/c4
+$bond:b142  $atom:monomers[141]/c5 $atom:monomers[142]/c4
+$bond:b143  $atom:monomers[142]/c5 $atom:monomers[143]/c4
+$bond:b144  $atom:monomers[143]/c5 $atom:monomers[144]/c4
+$bond:b145  $atom:monomers[144]/c5 $atom:monomers[145]/c4
+$bond:b146  $atom:monomers[145]/c5 $atom:monomers[146]/c4
+$bond:b147  $atom:monomers[146]/c5 $atom:monomers[147]/c4
+$bond:b148  $atom:monomers[147]/c5 $atom:monomers[148]/c4
+$bond:b149  $atom:monomers[148]/c5 $atom:monomers[149]/c4
+
+}
+}
